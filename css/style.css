@@ -43,10 +43,11 @@ nav a {
     background-color: #EEEEEE;
     color: #333333;
     padding: 2px 6px 2px 6px;
-    border: 1px solid #555555
+    /*border: 1px solid #555555*/
 }
 
 nav a:hover {
+    background-color: #DDDDDD;
     color: #555555;
 }
 
