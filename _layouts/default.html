@@ -4,6 +4,7 @@
         <meta charset=utf-8 />
         <title> {% if page.title %} {{ page.title }} | {% endif %} Voxelgon </title>
         <link rel="stylesheet" href="/css/style.css" />
+        <link rel='stylesheet' href='/fa/css/font-awesome.css' />
     </head>
     <body>
         <div id="main">
@@ -30,8 +31,19 @@
 
             {{ content }} 
 
+            <hr>
+
             <footer>
-                <!TODO: add footer with links n stuff>
+                <div id="footer-links">
+                    <ul>
+                        <li>
+                            <i class="fa fa-twitter"></i> <a href="http://twitter.com/voxelgon">Twitter</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-github"></i> <a href="http://github.com/voxelgon">Github</a>
+                        </li>
+                    </ul>
+                </div>
             </footer>
 
         </div>
