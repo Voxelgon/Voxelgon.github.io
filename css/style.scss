@@ -1,3 +1,9 @@
+---
+---
+
+$bg-color: #0a0820;
+$bg-blur: 3px;
+
 @font-face {
     font-family: Sofachrome;
     src: url(/fonts/sofachrome.ttf);
@@ -14,25 +20,28 @@ body {
     color: #F0F0F0;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 #background {
     position: fixed;
-    top: -10;
-    left: -10;
-    right: -10;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
     z-index: 1;
     display: block;
     width: 110%;
     height: 110%;
-    background-color: #0A0820;
+    background-color: $bg-color;
     background-image: url('/img/bg-qr.png');
     background-size: cover;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
+    -webkit-filter: blur($bg-blur);
+    -moz-filter: blur($bg-blur);
+    -o-filter: blur($bg-blur);
+    -ms-filter: blur($bg-blur);
+    filter: blur($bg-blur);
+    overflow: hidden;
 }
 
 a {
