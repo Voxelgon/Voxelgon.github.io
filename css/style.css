@@ -1,17 +1,12 @@
 body {
-    font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+    font: 16px helvetica;
     background-color: #cccccc;
     background-image: url('/img/bg.jpg');
     color: #F0F0F0;
     padding: 0;
     margin: 0;
 }
-/*
-ul {
-    margin: 0;
-    padding: 0;
-}
-*/
+
 a {
     color: #ccc;
     text-decoration: none;
@@ -20,14 +15,6 @@ a {
 a:hover {
     color: #eee;
     text-decoration: underline;
-}
-
-.navbutton {
-    text-decoration: none;
-    background-color: #EEEEEE;
-    color: #333333;
-    padding: 2px 6px 2px 6px;
-    border: 1px solid #555555
 }
 
 #main {
@@ -45,45 +32,28 @@ header {
 h1 {
     margin: 0;
 }
-/*
-nav ul, ul.entries {
-    list-style-type: none;
-}
-*/
 
-nav li a {
+nav li {
     float: left;
+    list-style-type: none;
     /*margin: 5px;*/
+}
+nav a {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid #555555
+}
+
+nav a:hover {
+    color: #555555;
 }
 
 .content {
     padding: 10px;
 }
-/*
-ul.entries li {
-    position: relative;
-    margin: 20px auto;
-    padding: 20px;
-    background: #ececec;
-    width: 600px;
-}
-*/
 
-ul.entries img {
-    position: absolute;
-    bottom: -18px;
-    left: 17px;
-    font-size: 2em;
-}
-/*
-ul.entries a {
-    color: #ececec;
-}
-
-ul.entries a: hover {
-    color: fff;
-}
-*/
 footer {
     font-size: 1em;
     text-align: center;
