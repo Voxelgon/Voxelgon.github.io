@@ -20,7 +20,6 @@ body {
     color: #F0F0F0;
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 #background {
@@ -55,7 +54,7 @@ a:hover {
 }
 
 #main {
-    position: fixed;
+    position: absolute;
     top: 40px;
     left: 30px;
     right: 30px;
