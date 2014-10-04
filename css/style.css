@@ -16,22 +16,23 @@ body {
     margin: 0;
 }
 
-.background {
+#background {
     position: fixed;
-    left: 0;
-    right: 0;
+    top: -10;
+    left: -10;
+    right: -10;
     z-index: 1;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     background-color: #0A0820;
     background-image: url('/img/bg-qr.png');
     background-size: cover;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 }
 
 a {
@@ -45,10 +46,16 @@ a:hover {
 }
 
 #main {
-    width: 960px;
-    margin: 0 auto;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 960px;
+    margin: auto;
     background: rgba(0, 0, 0, 0.6);
-    z-index: 9999;
+    z-index: 2;
 }
 
 header {
