@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Sofachrome;
+    src: url(/fonts/sofachrome.ttf);
+}
+
+@font-face {
+    font-family: audimat;
+    src: url(/fonts/audimat/AUdimat.otf);
+}
+
 body {
-    font: 16px helvetica;
+    font-family: audimat;
     background-color: #cccccc;
     background-image: url('/img/bg.jpg');
     color: #F0F0F0;
@@ -24,6 +34,7 @@ a:hover {
 }
 
 header {
+    font-family: Sofachrome;
     padding: 0 10px;
     overflow: hidden;
     text-align: center;
@@ -39,6 +50,7 @@ nav li {
     /*margin: 5px;*/
 }
 nav a {
+    font-family: Sofachrome;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
