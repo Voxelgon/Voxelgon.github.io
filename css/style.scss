@@ -45,9 +45,6 @@ body {
     padding: 10px;
     margin: 0;
     background-color: $bg-color;
-    background-image: url('/img/starfield.jpg');
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 a {
@@ -127,3 +124,12 @@ footer {
     top: 100px;
     float:right;
 }
+
+@media screen {
+    body{
+        background-image: url('/img/starfield.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
