@@ -135,7 +135,7 @@ footer {
     }
 }
 
-@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), (max-width:500){
+@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), (max-width:400px) {
     body {
         background-image:none;
     }
