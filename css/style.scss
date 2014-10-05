@@ -16,31 +16,13 @@ $bg-blur: 3px;
 
 body {
     font-family: audimat;
-
     color: #F0F0F0;
     padding: 0;
     margin: 0;
-}
-
-#background {
-    position: fixed;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    z-index: 1;
-    display: block;
-    width: 110%;
-    height: 110%;
     background-color: $bg-color;
-    background-image: url('/img/bg-qr.png');
+    background-image: url('/img/starfield.jpg');
     background-size: cover;
-    -webkit-filter: blur($bg-blur);
-    -moz-filter: blur($bg-blur);
-    -o-filter: blur($bg-blur);
-    -ms-filter: blur($bg-blur);
-    filter: blur($bg-blur);
-    overflow: hidden;
+    background-attachment: fixed;
 }
 
 a {
@@ -54,7 +36,6 @@ a:hover {
 }
 
 #main {
-    position: absolute;
     top: 40px;
     left: 30px;
     right: 30px;
