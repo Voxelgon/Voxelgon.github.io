@@ -126,9 +126,7 @@ footer {
     float:right;
 }
 
-@media (min-width:400px),
-    not (orientation:landscape) and (width:768px),
-    not (orientation:portrait) and (width:481px) {
+@media (min-width:400px) {
         h1{
         font-size:2em;
     }
@@ -136,6 +134,12 @@ footer {
         background-image: url('/img/starfield.jpg');
         background-size: cover;
         background-attachment: fixed;
+    }
+}
+
+@media (width:768px), (width:481px){
+    body {
+        background-image:none;
     }
 }
 
