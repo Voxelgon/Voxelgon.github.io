@@ -24,7 +24,6 @@ $button-hover: #CCCCCC;
     right: 30px;
     padding: 10px;
     max-width: 960px;
-    width:95%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -43,7 +42,7 @@ $button-hover: #CCCCCC;
 body {
     font-family: audimat;
     color: $textcolor;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     background-color: $bg-color;
     background-image: url('/img/starfield.jpg');
