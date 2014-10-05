@@ -125,11 +125,17 @@ footer {
     float:right;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     body{
         background-image: url('/img/starfield.jpg');
         background-size: cover;
         background-attachment: fixed;
+    }
+}
+
+@media (max-width:350px) {
+        h1{
+        font-size:1.5em;
     }
 }
 
