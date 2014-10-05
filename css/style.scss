@@ -127,8 +127,8 @@ footer {
 }
 
 @media (min-width:400px),
-    not handheld and (orientation:landscape) and (width:768px),
-    not handheld and (orientation:portrait) and (width:481px) {
+    not (orientation:landscape) and (width:768px),
+    not (orientation:portrait) and (width:481px) {
         h1{
         font-size:2em;
     }
