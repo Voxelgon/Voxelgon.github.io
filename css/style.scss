@@ -117,11 +117,14 @@ footer {
 .content {
     padding: 5px;
     clear:both;
+    overflow:none;
 }
 
 .twitter-timeline{
-    margin-left:10px;
-    margin:10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     top: 100px;
     float:right;
 }
