@@ -125,16 +125,11 @@ footer {
     float:right;
 }
 
-@media not handheld {
+@media (min-width: 500px) {
     body{
         background-image: url('/img/starfield.jpg');
         background-size: cover;
         background-attachment: fixed;
-    }
-}
-@media handheld {
-    body{
-        background-image:none;
     }
 }
 
