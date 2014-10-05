@@ -125,7 +125,7 @@ footer {
     float:right;
 }
 
-@media screen {
+@media not handheld {
     body{
         background-image: url('/img/starfield.jpg');
         background-size: cover;
