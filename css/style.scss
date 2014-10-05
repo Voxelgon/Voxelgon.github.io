@@ -45,6 +45,9 @@ body {
     padding: 10px;
     margin: 0;
     background-color: $bg-color;
+    background-image: url('/img/starfield.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {
@@ -66,7 +69,7 @@ header {
 
 h1 {
     font-family: Sofachrome, sans-sarif;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -126,18 +129,13 @@ footer {
     float:right;
 }
 
-@media (min-width:400px) {
-        h1{
-        font-size:2em;
-    }
-    body{
-        background-image: url('/img/starfield.jpg');
-        background-size: cover;
-        background-attachment: fixed;
+@media (max-width:400px) {
+    h1{
+        font-size:1.5em;
     }
 }
 
-@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px){
+@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), (max-width:500){
     body {
         background-image:none;
     }
