@@ -4,6 +4,8 @@
 $bg-color: #0a0820;
 $bg-blur: 3px;
 
+$textcolor: #F0F0F0;
+
 @font-face {
     font-family: Sofachrome;
     src: url(/fonts/sofachrome.ttf);
@@ -19,13 +21,16 @@ $bg-blur: 3px;
     left: 30px;
     right: 30px;
     padding: 10px;
-    border-radius: 10px;
     max-width: 960px;
     width:95%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
     background: rgba(0, 0, 0, 0.6);
+    border-style: solid;
+    border-width:1px;
+    border-color: $textcolor;
+    border-radius: 10px;
 }
 
 #footer-links li{
@@ -35,7 +40,7 @@ $bg-blur: 3px;
 
 body {
     font-family: audimat;
-    color: #F0F0F0;
+    color: $textcolor;
     padding: 0;
     margin: 0;
     background-color: $bg-color;
