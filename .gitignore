@@ -2,3 +2,7 @@
 _site/*
 *.meta
 img/bg.png
+
+_layouts/.Default.html.swp
+
+*.swp
