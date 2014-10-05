@@ -30,7 +30,7 @@ $button-hover: #CCCCCC;
     margin-bottom: 30px;
     background: rgba(0, 0, 0, 0.6);
     border-style: solid;
-    border-width:1px;
+    border-width:2px;
     border-color: $textcolor;
     border-radius: 10px;
 }
@@ -85,7 +85,7 @@ h2 {
     //background: #888888;
     border-style: solid;
     border-radius:17px;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .navitem{
@@ -100,12 +100,9 @@ h2 {
     padding: 2px 10px;
     margin: 2px;
     border-radius: 30px;
-
-}
-
-.navitem a{
     color: #333333;
 }
+
 .navitem:hover {
     text-decoration: none;
     background: $button-hover;
