@@ -135,7 +135,7 @@ footer {
     }
 }
 
-@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), handheld and (orientation:landscape) and (width:667px), (orientation:landscape) and (width:736px), handheld and (orientation:landscape) and (width:480px), handheld and (orientation:landscape) and (width:564px), (max-width:400px) {
+@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), (orientation:landscape) and (width:667px), (orientation:landscape) and (width:736px), (orientation:landscape) and (width:480px), (orientation:landscape) and (width:568px), (max-width:400px) {
     body {
         background-image:none;
     }
