@@ -34,7 +34,7 @@ $button-hover: #CCCCCC;
     border-radius: 10px;
 }
 
-#footer-links li{
+#footer-links li {
     text-align: left;
     list-style-type: none;
 }
@@ -67,34 +67,33 @@ header {
     text-align: center;
 }
 
-h1 {
-    font-family: Sofachrome, sans-sarif;
-    font-size: 2em;
-    margin: 0;
+h1, h2 {
+	font-family: Sofachrome, sans-serif;
+	margin: 0;
 }
 
-h2 {
-    font-family: Sofachrome, sans-sarif;
-    margin: 0;
+h1 {
+	font-size: 2em;
 }
-#navbar{
+
+#navbar {
     text-align: center;
     display: table;
     margin: auto;
     padding: 2px;
     //background: #888888;
     border-style: solid;
-    border-radius:17px;
+    border-radius: 17px;
     border-width: 2px;
 }
 
-.navitem{
+.navitem {
     white-space: nowrap;
     text-align: center;
     margin: auto;
-    display:inline-block;
-    height:20px;
-    font-family: Sofachrome, sans-sarif;
+    display: inline-block;
+    height: 20px;
+    font-family: Sofachrome, sans-serif;
     text-decoration: none;
     background: $button;
     padding: 2px 10px;
@@ -116,41 +115,43 @@ footer {
 
 .content {
     padding: 5px;
-    clear:both;
-    overflow:none;
+    clear: both;
+    overflow: none;
 }
 
-.twitter-timeline{
-    margin-left: 10px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width:100%;
-    float:right;
+.twitter-timeline {
+    margin: 10px;
+    width: 100%;
+    float: right;
 }
 
-@media (max-width:400px) {
-    h1{
-        font-size:1.5em;
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
     }
 }
 
-@media (orientation:portrait) and (width:768px), (orientation:landscape) and (width:1024px), (orientation:landscape) and (width:667px), (orientation:landscape) and (width:736px), (orientation:landscape) and (width:480px), (orientation:landscape) and (width:568px), (max-width:400px) {
+@media (orientation: portrait) and (width: 768px),
+	(orientation: landscape) and (width: 1024px),
+	(orientation: landscape) and (width: 667px),
+	(orientation: landscape) and (width: 736px),
+	(orientation: landscape) and (width: 480px),
+	(orientation: landscape) and (width: 568px),
+	(max-width: 400px) {
     body {
-        background-image:none;
+        background-image: none;
     }
     #main {
-        margin-top:0px;
+        margin-top: 0;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     .twitter-timeline {
-        width:100%;
-        text-align:center;
-        display:inline-block;
-        float:none;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
     }
 }
