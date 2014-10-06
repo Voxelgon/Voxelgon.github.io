@@ -8,7 +8,8 @@ var isMobile = {
 };
 
 $( document ).ready(function() {
-    if( !isMobile.any() ) {
-        $( "body" ).css({ backgroundImage: "none" });
+    if( isMobile.any() ) {
+        $( "body" ).css( "backgroundImage", "none" );
+        $( "#main" ).css( "marginTop", 0 );
     }
 });

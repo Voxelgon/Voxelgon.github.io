@@ -1,54 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <meta charset=utf-8 />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> {% if page.title %} {{ page.title }} | {% endif %} Voxelgon </title>
-        <link rel="stylesheet" href="/css/style.css" />
-        <link rel='stylesheet' href='/fa/css/font-awesome.css' />
-    </head>
+    {% include head.html %}
     <body>
-        <script src="/js/jquery.js"></script>
-        <script src="/js/ismobile.js"></script>
         <div id="main">
-            <header>
-                <h1> Voxelgon </h1>
-            </header>
-            <div id="navbar">
-                <a class="navitem" href="/">Home</a>
-                <a class="navitem" href="/about.html">About</a>
-                <a class="navitem" href="/blog.html">Dev Blog</a>
-            </div>
-
-
+            {% include header.html %}
 
             {{ content }} 
 
-            <hr>
-
-            <footer>
-                <div id="footer-links">
-                    <ul>
-                        <li>
-                            <i class="fa fa-twitter"></i> <a href="http://twitter.com/voxelgon">Twitter</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-github"></i> <a href="http://github.com/voxelgon">Github</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-comments-o"> </i> <a href="http://webchat.sublumin.al/?channels=voxelgon">IRC on Subluminal</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope-square"> </i> <a href="mailto:voxelgonGame@gmail.com">Email</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-paypal"></i> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S6NCVXY76YLHN&lc=US&item_name=Voxelgon&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">Donate</a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-
+            {% include footer.html %}
         </div>
-        <div id="background"></div>
     </body>
 </html>
