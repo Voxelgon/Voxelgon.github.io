@@ -76,10 +76,6 @@ h4 {
     margin: 5px;
 }
 
-#post-list {
-
-}
-
 .post-excerpt {
     padding: 10px;
     margin-top: 10px;
@@ -88,6 +84,12 @@ h4 {
     border-width: 2px;
     border-color: $textcolor;
     border-radius: 10px;
+}
+
+.rss-link-center {
+    text-align: center;
+    clear: both;
+    margin: auto;
 }
 
 body {
