@@ -8,8 +8,8 @@ title: Dev-Blog
 <div id="post-list">
     {% for post in site.posts %}
         <div class="post-excerpt">
-            <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <h3 class="post-link">
+                <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h3>
             <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
             {{ post.excerpt }}
