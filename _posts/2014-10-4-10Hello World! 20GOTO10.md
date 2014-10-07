@@ -1,7 +1,0 @@
----
-title: Hello World
-layout: post
----
-
-**Hello World!**
-LOREM IPSUM DOLOR SIT AMET
