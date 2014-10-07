@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div id="main">
+            {% include header.html %}
+
+            <h1 id="page-heading"> {{ page.title }} </h1>
+            <h3 id="page-info"> {{ page:date | date: "%b %-d, %Y" }} </h3>
+
+            {{ content }}
+
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

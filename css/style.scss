@@ -31,7 +31,7 @@ header {
     }
 }
 
-h1, h2 {
+h1, h2, h3, h4{
     font-family: Sofachrome, sans-serif;
     margin: 0;
     clear: both;
@@ -39,6 +39,43 @@ h1, h2 {
 
 h1 {
     font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+#page-heading {
+    text-align:center;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#page-info {
+    text-align: center;
+    margin: 5px;
+}
+
+#post-list {
+
+}
+
+.post-excerpt {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $textcolor;
+    border-radius: 10px;
 }
 
 body {
