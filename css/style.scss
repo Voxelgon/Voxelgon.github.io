@@ -47,12 +47,6 @@ h4 {
     font-size: 0.8em;
 }
 
-@media (max-width: 400px) {
-    #title {
-        font-size: 1.5em;
-    }
-}
-
 #page-heading {
     text-align:center;
     font-size: 1.5em;
@@ -60,12 +54,18 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    #title {
+        font-size: 1.5em;
+    }
+
     #page-heading {
         font-size: 1em;
     }
-}
 
-@media (max-width: 400px) {
+    #page-info {
+        font-size: 0.8em;
+    }
+
     .post-link {
         font-size:1em;
     }
