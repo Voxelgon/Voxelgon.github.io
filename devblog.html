@@ -1,0 +1,19 @@
+---
+layout: default
+title: Dev-Blog
+---
+
+<h1 id="page-heading"> Development-Blog </h1>
+
+<div id="post-list">
+    {% for post in site.posts %}
+        <div class="post-excerpt">
+            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+            {{ post.excerpt }}
+        </div>
+
+    {% endfor %}
+</div>
