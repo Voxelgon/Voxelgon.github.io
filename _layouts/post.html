@@ -5,12 +5,12 @@
         <div id="main">
             {% include header.html %}
 
+            <div id="content">
             <h1 id="page-heading"> {{ page.title }} </h1>
             <h3 id="page-info"> {{ page:date | date: "%b %-d, %Y" }} </h3>
 
-            <div id="content">
             {{ content }}
-            </div>
+
 
             <div id="disqus_thread"></div>
             <script type="text/javascript">
@@ -25,6 +25,7 @@
                 })();
             </script>
             <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
         </div>
     </body>
 </html>
