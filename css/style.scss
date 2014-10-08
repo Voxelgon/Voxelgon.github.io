@@ -53,6 +53,10 @@ h4 {
     margin: 10px;
 }
 
+hr: {
+    clear: both;
+}
+
 @media (max-width: 400px) {
     #title {
         font-size: 1.5em;
@@ -127,6 +131,11 @@ body {
     border-width:2px;
     border-color: $textcolor;
     border-radius: 10px;
+}
+
+#content {
+    width: 95%;
+    margin: 10%;
 }
 
 #navbar {
