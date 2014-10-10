@@ -8,6 +8,8 @@ $textcolor: #F0F0F0;
 $button: #FFFFFF;
 $button-hover: #CCCCCC;
 
+$engine-blue: #00DDDD;
+
 @font-face {
     font-family: Sofachrome;
     src: url(/fonts/sofachrome.ttf);
@@ -173,8 +175,8 @@ body {
 
     a:hover {
         text-decoration: none;
-        background: $button-hover;
-        color: #555555;
+        background: $engine-blue;
+        color: #FFFFFF;
     }
 }
 
