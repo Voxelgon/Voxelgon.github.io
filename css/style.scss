@@ -186,7 +186,7 @@ footer {
 #footer-links {
     float: left;
     display: inline-block;
-    width: 200px;
+    width: 250px;
     li {
         text-align: left;
         list-style-type: none;
@@ -194,7 +194,7 @@ footer {
 }
 
 #footer-info {
-    max-width: 300px;
+    max-width: 400px;
     text-align:right;
     height: 100px;
     float:right;
@@ -220,6 +220,8 @@ footer {
         display: inline-block;
         float: none;
     }
+}
+@media (max-width: 700px) {
     #footer-info, #footer-links{
         clear: both;
         float: none;
