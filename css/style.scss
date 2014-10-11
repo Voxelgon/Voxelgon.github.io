@@ -10,6 +10,8 @@ $button-text: #333333;
 $button-hover: #00DDDD;
 $button-hover-text: #FFFFFF;
 
+$link: #CCCCCC;
+$link-hover: #00DDDD;
 
 $title-fonts: Sofachrome, sans-serif;
 $body-fonts: Montserrat, sans-serif;
@@ -116,12 +118,17 @@ body {
     background-attachment: fixed;
 
     a {
-        color: #ccc;
+        color: $link;
         text-decoration: none;
     }
 
     a:hover {
-        color: #eee;
+        color: $link-hover;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: $link-hover;
         text-decoration: underline;
     }
 }
