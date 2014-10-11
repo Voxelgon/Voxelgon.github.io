@@ -6,7 +6,13 @@ $bg-blur: 3px;
 
 $textcolor: #F0F0F0;
 $button: #FFFFFF;
-$button-hover: #CCCCCC;
+$button-text: #333333;
+$button-hover: #00DDDD;
+$button-hover-text: #FFFFFF;
+
+
+$title-fonts: Sofachrome, sans-serif;
+$body-fonts: Montserrat, sans-serif;
 
 $engine-blue: #00DDDD;
 
@@ -20,15 +26,16 @@ $engine-blue: #00DDDD;
     src: url(/fonts/audimat/AUdimat.otf);
 }
 
+
 header {
-    font-family: Sofachrome;
+    font-family: $title-fonts;
     padding: 0 10px;
     overflow: hidden;
     text-align: center;
 }
 
 h1, h2, h3, h4{
-    font-family: Sofachrome, sans-serif;
+    font-family: $title-fonts;
     margin: 0;
     clear: both;
 }
@@ -146,37 +153,36 @@ body {
     max-width: 1000px;
 }
 
-
-
 #navbar {
     text-align: center;
     display: table;
     margin: auto;
     padding: 2px;
-    //background: #888888;
     border-style: solid;
     border-radius: 17px;
     border-width: 2px;
 
     a {
-        white-space: nowrap;
-        text-align: center;
-        margin: auto;
-        display: inline-block;
-        height: 20px;
-        font-family: Sofachrome, sans-serif;
         text-decoration: none;
         background: $button;
+        color: $button-text;
+
+        text-align: center;
+        display: inline-block;
+
+        height: 20px;
         padding: 2px 10px;
         margin: 2px;
         border-radius: 30px;
-        color: #333333;
+
+        white-space: nowrap;
+        font-family: Sofachrome, sans-serif;
     }
 
     a:hover {
         text-decoration: none;
-        background: $engine-blue;
-        color: #FFFFFF;
+        background: $button-hover;
+        color: $button-hover-text;
     }
 }
 
