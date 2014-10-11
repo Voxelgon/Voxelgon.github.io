@@ -184,6 +184,12 @@ body {
         background: $button-hover;
         color: $button-hover-text;
     }
+
+    a:active {
+        text-decoration: none;
+        background: $button-hover;
+        color: $button-hover-text;
+    }
 }
 
 footer {
