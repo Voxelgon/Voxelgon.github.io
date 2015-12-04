@@ -13,13 +13,13 @@ $button-hover-text: #FFFFFF;
 $link: #CCCCCC;
 $link-hover: #00DDDD;
 
-$title-fonts: Sofachrome, sans-serif;
+$title-fonts: SquarishSans, sans-serif;
 $body-fonts: Montserrat, sans-serif;
 
 $engine-blue: #00DDDD;
 
 @font-face {
-    font-family: Sofachrome;
+    font-family: SquarishSans;
     src: url(/fonts/Squarish_Sans_CT_Regular_SC.ttf);
 }
 
@@ -183,7 +183,7 @@ body {
         border-radius: 30px;
 
         white-space: nowrap;
-        font-family: Sofachrome, sans-serif;
+        font-family: SquarishSans, sans-serif;
     }
 
     a:hover {
