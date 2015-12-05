@@ -6,3 +6,5 @@ img/bg.png
 _layouts/.Default.html.swp
 
 *.swp
+
+.vscode/*
