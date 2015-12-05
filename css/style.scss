@@ -232,6 +232,23 @@ footer {
     float: left;
 }
 
+.image {
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 350px;
+
+    img {
+        max-height: 300px;
+
+        border-radius: 30px;
+    }
+    figcaption {
+        font-style: italic;
+    }
+}
+
 @media (max-width: 600px) {
     .float-left, .float-right {
         width: 100%;
