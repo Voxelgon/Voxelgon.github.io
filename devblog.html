@@ -13,7 +13,15 @@ permalink: devblog/
                 <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h3>
             <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
-            {{ post.excerpt }}
+            {% if post.thumb %}
+                <img
+                    class="post-thumb" 
+                    src="/img/{{ post.post }}/{{ post.thumb }}" 
+                    alt="{{ post.title }}">
+            {% endif %}
+            {{ post.excerpt | strip_html | truncatewords: 150 }}
+            <a href="{{ post.url | prepend: site.baseurl }}">read more</a>
+
         </div>
 
     {% endfor %}
