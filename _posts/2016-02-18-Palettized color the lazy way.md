@@ -1,7 +1,7 @@
 ---
 title: Palettized color the lazy way
 post: 2016-02-18-Palette
-thumb: palette.png
+thumb: Palette.png
 layout: post
 ---
 
