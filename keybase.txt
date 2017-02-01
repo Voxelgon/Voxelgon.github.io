@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/drewcassidy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://voxelgon.github.io
+  * I am drewcassidy (https://keybase.io/drewcassidy) on keybase.
+  * I have a public key with fingerprint 4B68 3A9B 53E5 EC6B 5C2F  B8F7 774E CFF4 464A C5CD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101abaddbc34e81f4b85deb25b179a10fb25aab5d5a801aef6d441a7a19ae5d511d0a",
+            "fingerprint": "4b683a9b53e5ec6b5c2fb8f7774ecff4464ac5cd",
+            "host": "keybase.io",
+            "key_id": "774ecff4464ac5cd",
+            "kid": "0101abaddbc34e81f4b85deb25b179a10fb25aab5d5a801aef6d441a7a19ae5d511d0a",
+            "uid": "63fbb2aa7ec3ad21de885de1248aa219",
+            "username": "drewcassidy"
+        },
+        "service": {
+            "hostname": "voxelgon.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485973246,
+    "expire_in": 157680000,
+    "prev": "ee3445232f0353f64b6d4386915c9d55289e5bd6e825da0f458f70148d5b37ca",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIwAnicrVJbSBVBGD7euhiFIfSgQbHd4yRnd2f2cqBIKYiu0gXsIseZndnj4mn3
+tLvndKyszCJKK4p6kCitB80ik0OERIiFT6lIEGEWUYlUmoVUFJXarNVbj83LzPz/
+933z/f8/HdPTfJkpPQsefekfyduU0nm/PuYrOrdwbD+HLVLOBfdzZXRioxFCHTdU
+ZhAuyAX4AI8wIgRrIqAKrwOsQEKxADEvq4gP6OyIEIYEIoVBqS4RAHgkI15FlEV5
+ngQQ5+d0wwxTO2obpstkAZYUEakYihRSTcJQE3Ss6LIsA6rpOgASQBrUCCOWWo7H
+YOYwcmieYbEYu4Qm7P0D/599xybkJFHHWEBIppqIiMATqnhyvAAUhARe9YAOtU20
+mzI0seleDTmOwfpa4edYIm5o1OutV8wfUNxK0EjYMvPChlsaw78Li9qWa2lWhOVL
+XTfqBD2+Wx71CHspDv2RCmHDJKyhjBGntmNYJhfkGVJzDU+bBwpUZVEAkp+jiahh
+05DhIaAsKQG2vHdonElSKgIABVHQAyIUdYmNhQBRkVQeaiqBUFBUCjGRqCJAggI6
+gGxGASZPIBZlzeuPQ/eYFhdUmU0UZpKOETaRG7MpV/GgfVe6LyXTNykj1ftovsyp
+WX+/33EweTzmtvS2+hoKut7OS9Lj63NP5+b3qsmlM3OzhrPlxuxvxRue+xs7p5Tf
+bbp880b9s/zmk/PLmw/KJXbNwx+V7rvMT03Z21ZmVK8taKxqfdmfOGoeG01PbIwU
+vPh2o/1ZzuG0trKixND1rFFl0eeOon3Px82tbfrOgYYT2oXUjMrhwjnfN1enN98b
+bO066+c+Xss6sqT2Vs/77etb5h5bc3sHzi3JWXHzVXJm/6bZg6s/X+p6xXXar/N/
+1uqdbzZW1lRtGehPrb5z8cqpofGa4idLlqV9r5t2ZmxtsurA8sU/rqIMwRjo/bDq
+aY9SN72pO7b96/yR3ecNsXtGX+G6nkWzEsKhx32/AF2KT/w=
+=rYi7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/drewcassidy
+
+==================================================================
